@@ -1,0 +1,52 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		},
+		{
+			"path": "pages/shop/shop"
+		},
+		{
+			"path": "pages/hypermarket/hypermarket"
+		},
+		{
+			"path": "pages/me/me"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "XunWeiWxApp",
+		"navigationBarBackgroundColor": "#FFD100",
+		"backgroundColor": "#FFD100"
+	},
+	"tabBar":{
+		"selectedColor":"#3A4A53",
+		"color":"#ccc",
+		"list":[
+			{
+				"text":"首页",
+				"pagePath":"pages/index/index",
+				"selectedIconPath":"static/icon/home-active.png",
+				"iconPath":"static/icon/home.png"
+			},
+			{
+				"text":"店铺",
+				"pagePath":"pages/shop/shop",
+				"selectedIconPath":"static/icon/news-active.png",
+				"iconPath":"static/icon/news.png"
+			},
+			{
+				"text":"商场",
+				"pagePath":"pages/hypermarket/hypermarket",
+				"selectedIconPath":"static/icon/cart-active.png",
+				"iconPath":"static/icon/cart.png"
+			},
+			{
+				"text":"我的",
+				"pagePath":"pages/me/me",
+				"selectedIconPath":"static/icon/member-active.png",
+				"iconPath":"static/icon/member.png"
+			}
+		]
+	}
+}
